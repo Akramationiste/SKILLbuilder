@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import Test from './components/navbar/Navbar.jsx'
-import Example from './components/navbar/Navbar.jsx'
 import Navbar from './components/navbar/Navbar.jsx'
+import Stat from './components/Stat'
 
 
 function App() {
   return (
     <div className="App">
-    <Example/>
+    <Navbar/>
+    <Stat/>
     </div>
       
       
