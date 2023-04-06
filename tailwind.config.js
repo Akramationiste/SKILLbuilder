@@ -19,7 +19,8 @@ module.exports = {
         '5xl': '3.052rem',},
       colors:  {
         bluea: "#6FFFE9",
-        bulea: "#1C2541"
+        bulea: "#1C2541",
+        bulei: "#5BC0BE"
       }
     },
   },
