@@ -1,4 +1,4 @@
-
+import "./App.css";
 import './App.css'
 import Navbar from './components/navbar/Navbar.jsx'
 import Carousel from './components/carousel/Carousel.jsx';
@@ -9,14 +9,12 @@ import Cardaccueil from "./components/Cardaccueil";
 import Hero from "./components/Hero";
 import CalendrierTable from "./components/CalendrierTable";
 import Cards from './components/cards/cards';
+import CalenderConf from "./components/CalenderConf";
 
 
 function App() {
   return (
     <div className="App">
-   
-  
-    
       <Navbar />
       <Carousel/>
       <Cards/>
@@ -25,7 +23,7 @@ function App() {
       <Cardaccueil />
       <div>
         <CalendrierTable />
-
+        <CalenderConf/>
       </div>
       <Footer />
     </div>
