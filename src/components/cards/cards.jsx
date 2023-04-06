@@ -2,6 +2,8 @@ import React from 'react'
 
 function Cards() {
   return (
+    <div className='flex flex-col gap-2'>
+        <h1 className='text-5xl font-bold text-center'>Formation</h1>
     <div className="flex flex-col gap-5 p-10">
         <div className="flex flex-row gap-5">
     <div className="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-xl sm:p-6 lg:p-8">
@@ -423,6 +425,7 @@ function Cards() {
 
 
 
+</div>
 </div>
   )
 }

@@ -10,6 +10,7 @@ import Hero from "./components/Hero";
 import CalendrierTable from "./components/CalendrierTable";
 import Cards from './components/cards/cards';
 import CalenderConf from "./components/CalenderConf";
+import Event from "./components/event";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Navbar />
       <Carousel/>
       <Cards/>
+      <Event/>
       <Hero />
       <Stat />
       <Cardaccueil />
