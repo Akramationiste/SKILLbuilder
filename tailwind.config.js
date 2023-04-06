@@ -9,6 +9,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+<<<<<<< HEAD
       fontSize: {
         sm: '0.8rem',
         base: '1rem',
@@ -17,6 +18,11 @@ module.exports = {
         '3xl': '1.953rem',
         '4xl': '2.441rem',
         '5xl': '3.052rem',
+=======
+      colors:  {
+        bluea: "#6FFFE9",
+        bulea: "#1C2541"
+>>>>>>> 03e2b4c02fde0783c8d49a76346ef6a99867c2ad
       }
     },
   },
