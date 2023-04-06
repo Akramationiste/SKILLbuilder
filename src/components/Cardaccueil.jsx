@@ -1,55 +1,61 @@
 import React from "react";
-import Eventspic from "./images/Eventspic.png";
+import Eventspic from "./images/Rectangle5.png";
+import Caloun from "./images/Rectangle6.png";
+import Form from "./images/Rectangle3.png";
+import Carr from "./images/Rectangle4.png";
 
 function Cardaccueil() {
   return (
     <div className="flex gap-8 flex-col p-24">
-      <div className="card lg:card-side bg-base-100 shadow-xl">
+      <div className="card lg:card-side bg-base-100 shadow-xl object-contain">
         <figure>
           <img src={Eventspic} alt="Album" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">New album is released!</h2>
           <p>Click the button to listen on Spotiwhy<br/> app. Click the button to listen on <br/> Spotiwhy app. 
+            Click the button to listen on Spotiwhy app.<br/> app. Click the button to listen on <br/> Spotiwhy app. 
             Click the button to listen on Spotiwhy app.</p>
           <div className="card-actions justify-end">
-            <button className="btn btn-primary">Découvrir nos formations</button>
+            <button className="btn btn-primar bg-bulea hover:bg-bluea hover:text-bulea">Découvrir nos évènnements</button>
           </div>
         </div>
       </div>
-      <div className="card lg:card-side bg-base-100 shadow-xl">
+      <div className="card lg:card-side bg-base-100 shadow-xl object-contain">
         <figure>
-          <img src={Eventspic} alt="Album" />
+          <img src={Caloun} alt="Album" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">New album is released!</h2>
           <p>Click the button to listen on Spotiwhy app.</p>
           <div className="card-actions justify-end">
-            <button className="btn btn-primary">Listen</button>
+          <button className="btn btn-primar bg-bulea hover:bg-bluea hover:text-bulea">Voir le Calendrier</button>
           </div>
         </div>
       </div>
       <div className="card lg:card-side bg-base-100 shadow-xl">
         <figure>
-          <img src={Eventspic} alt="Album" />
+          <img src={Form} alt="Album" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">New album is released!</h2>
-          <p>Click the button to listen on Spotiwhy app.</p>
+          <p>Click the button to listen on Spotiwhy<br/> app. Click the button to listen on <br/> Spotiwhy app. 
+            Click the button to listen on Spotiwhy app.<br/> app. Click the button to listen on <br/> Spotiwhy app. 
+            Click the button to listen on Spotiwhy app.</p>
           <div className="card-actions justify-end">
-            <button className="btn btn-primary">Listen</button>
+          <button className="btn btn-primar bg-bulea hover:bg-bluea hover:text-bulea">S'inscrire dans une formation</button>
           </div>
         </div>
       </div>
       <div className="card lg:card-side bg-base-100 shadow-xl">
         <figure>
-          <img src={Eventspic} alt="Album" />
+          <img src={Carr} alt="Album" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">New album is released!</h2>
           <p>Click the button to listen on Spotiwhy app.</p>
           <div className="card-actions justify-end">
-            <button className="btn btn-primary">Listen</button>
+          <button className="btn btn-primar bg-bulea hover:bg-bluea hover:text-bulea">Commencer une carrière</button>
           </div>
         </div>
       </div>

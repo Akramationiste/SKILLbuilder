@@ -1,11 +1,11 @@
 import React from "react";
-import Learning from "./images/learning.jpeg";
+import Cala from "./images/calouna.png";
 
-function Hero() {
+function Herocal() {
   return (
     <div>
-      <div className="hero min-h-screen hero-overlay  bg-bula">
-        <img className="w-screen" src={Learning}></img>
+      <div className="hero min-h-screen hero-overlay  bg-bulea">
+        <img className="w-screen" src={Cala}></img>
         <div className="hero-overlay "></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
@@ -25,4 +25,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default Herocal;

@@ -20,7 +20,9 @@ module.exports = {
       colors:  {
         bluea: "#6FFFE9",
         bulea: "#1C2541",
-        bulei: "#5BC0BE"
+        bula: "#4FC3D0",
+        bulei: "#5BC0BE",
+        bluei: "#5BC0BE"
       }
     },
   },

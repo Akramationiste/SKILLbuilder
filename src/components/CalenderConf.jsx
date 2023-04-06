@@ -1,8 +1,12 @@
 import React from "react";
+import Av from "./images/homme1.avif";
+import Ava from "./images/femme1.jpg";
+import Avat from "./images/homme2.jpg";
+import Avata from "./images/femme2.jpg";
 
 function CalenderConf() {
   return (
-    <div>
+    <div className="flex gap-8 flex-col p-24">
       <div className="overflow-x-auto w-full">
         <table className="table w-full">
           {/* head */}
@@ -13,9 +17,9 @@ function CalenderConf() {
                   <input type="checkbox" className="checkbox" />
                 </label>
               </th>
-              <th>Name</th>
-              <th>Job</th>
-              <th>Favorite Color</th>
+              <th>Nom</th>
+              <th>Métier</th>
+              <th>Domaine</th>
               <th></th>
             </tr>
           </thead>
@@ -32,14 +36,14 @@ function CalenderConf() {
                   <div className="avatar">
                     <div className="mask mask-squircle w-12 h-12">
                       <img
-                        src="/tailwind-css-component-profile-2@56w.png"
+                        src={Av}
                         alt="Avatar Tailwind CSS Component"
                       />
                     </div>
                   </div>
                   <div>
-                    <div className="font-bold">Hart Hagerty</div>
-                    <div className="text-sm opacity-50">United States</div>
+                    <div className="font-bold">Mohamed Hagerty</div>
+                    <div className="text-sm opacity-50">Batna</div>
                   </div>
                 </div>
               </td>
@@ -50,7 +54,7 @@ function CalenderConf() {
                   Desktop Support Technician
                 </span>
               </td>
-              <td>Purple</td>
+              <td>Technologie</td>
               <th>
                 <button className="btn btn-ghost btn-xs">details</button>
               </th>
@@ -67,14 +71,14 @@ function CalenderConf() {
                   <div className="avatar">
                     <div className="mask mask-squircle w-12 h-12">
                       <img
-                        src="/tailwind-css-component-profile-3@56w.png"
+                        src={Avata}
                         alt="Avatar Tailwind CSS Component"
                       />
                     </div>
                   </div>
                   <div>
-                    <div className="font-bold">Brice Swyre</div>
-                    <div className="text-sm opacity-50">China</div>
+                    <div className="font-bold">Amira Swyre</div>
+                    <div className="text-sm opacity-50">M'sila</div>
                   </div>
                 </div>
               </td>
@@ -85,7 +89,7 @@ function CalenderConf() {
                   Tax Accountant
                 </span>
               </td>
-              <td>Red</td>
+              <td>Business</td>
               <th>
                 <button className="btn btn-ghost btn-xs">details</button>
               </th>
@@ -102,14 +106,14 @@ function CalenderConf() {
                   <div className="avatar">
                     <div className="mask mask-squircle w-12 h-12">
                       <img
-                        src="/tailwind-css-component-profile-4@56w.png"
+                        src={Avat}
                         alt="Avatar Tailwind CSS Component"
                       />
                     </div>
                   </div>
                   <div>
-                    <div className="font-bold">Marjy Ferencz</div>
-                    <div className="text-sm opacity-50">Russia</div>
+                    <div className="font-bold">Bachir Ferencz</div>
+                    <div className="text-sm opacity-50">Alger</div>
                   </div>
                 </div>
               </td>
@@ -120,7 +124,7 @@ function CalenderConf() {
                   Office Assistant I
                 </span>
               </td>
-              <td>Crimson</td>
+              <td>Réseaux</td>
               <th>
                 <button className="btn btn-ghost btn-xs">details</button>
               </th>
@@ -137,14 +141,14 @@ function CalenderConf() {
                   <div className="avatar">
                     <div className="mask mask-squircle w-12 h-12">
                       <img
-                        src="/tailwind-css-component-profile-5@56w.png"
+                        src={Ava}
                         alt="Avatar Tailwind CSS Component"
                       />
                     </div>
                   </div>
                   <div>
-                    <div className="font-bold">Yancy Tear</div>
-                    <div className="text-sm opacity-50">Brazil</div>
+                    <div className="font-bold">Fadila Tear</div>
+                    <div className="text-sm opacity-50">Tamenrasset</div>
                   </div>
                 </div>
               </td>
@@ -155,7 +159,7 @@ function CalenderConf() {
                   Community Outreach Specialist
                 </span>
               </td>
-              <td>Indigo</td>
+              <td>Management</td>
               <th>
                 <button className="btn btn-ghost btn-xs">details</button>
               </th>
@@ -165,9 +169,9 @@ function CalenderConf() {
           <tfoot>
             <tr>
               <th></th>
-              <th>Name</th>
-              <th>Job</th>
-              <th>Favorite Color</th>
+              <th></th>
+              <th></th>
+              <th></th>
               <th></th>
             </tr>
           </tfoot>
