@@ -12,7 +12,7 @@ function Cardaccueil() {
           <img src={Eventspic} alt="Album" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">New album is released!</h2>
+          <h2 className="card-title">Des ateliers et de workshops enrichissants</h2>
           <p>Click the button to listen on Spotiwhy<br/> app. Click the button to listen on <br/> Spotiwhy app. 
             Click the button to listen on Spotiwhy app.<br/> app. Click the button to listen on <br/> Spotiwhy app. 
             Click the button to listen on Spotiwhy app.</p>
@@ -26,7 +26,7 @@ function Cardaccueil() {
           <img src={Caloun} alt="Album" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">New album is released!</h2>
+          <h2 className="card-title">Des évènements et des conférences variriées</h2>
           <p>Click the button to listen on Spotiwhy app.</p>
           <div className="card-actions justify-end">
           <button className="btn btn-primar bg-bulea hover:bg-bluea hover:text-bulea">Voir le Calendrier</button>
@@ -38,7 +38,7 @@ function Cardaccueil() {
           <img src={Form} alt="Album" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">New album is released!</h2>
+          <h2 className="card-title">Des formations dans tous les domaines</h2>
           <p>Click the button to listen on Spotiwhy<br/> app. Click the button to listen on <br/> Spotiwhy app. 
             Click the button to listen on Spotiwhy app.<br/> app. Click the button to listen on <br/> Spotiwhy app. 
             Click the button to listen on Spotiwhy app.</p>
@@ -52,7 +52,7 @@ function Cardaccueil() {
           <img src={Carr} alt="Album" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">New album is released!</h2>
+          <h2 className="card-title">Construire un chemin de  !</h2>
           <p>Click the button to listen on Spotiwhy app.</p>
           <div className="card-actions justify-end">
           <button className="btn btn-primar bg-bulea hover:bg-bluea hover:text-bulea">Commencer une carrière</button>
