@@ -22,7 +22,8 @@ module.exports = {
         bulea: "#1C2541",
         bula: "#4FC3D0",
         bulei: "#5BC0BE",
-        bluei: "#5BC0BE"
+        bluei: "#5BC0BE",
+        blua: "#00C1FF"
       }
     },
   },

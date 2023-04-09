@@ -3,13 +3,14 @@ import Eventspic from "./images/Rectangle5.png";
 import Caloun from "./images/Rectangle6.png";
 import Form from "./images/Rectangle3.png";
 import Carr from "./images/Rectangle4.png";
+import {NavLink} from "react-router-dom";
 
 function Cardaccueil() {
   return (
     <div className="flex gap-8 flex-col p-24">
       <div className="card lg:card-side bg-base-100 shadow-xl object-contain">
         <figure>
-          <img src={Eventspic} alt="Album" />
+          <img src={Eventspic} alt="Album"/>
         </figure>
         <div className="card-body">
           <h2 className="card-title">Des ateliers et de workshops enrichissants</h2>
@@ -17,7 +18,7 @@ function Cardaccueil() {
             Click the button to listen on Spotiwhy app.<br/> app. Click the button to listen on <br/> Spotiwhy app. 
             Click the button to listen on Spotiwhy app.</p>
           <div className="card-actions justify-end">
-            <button className="btn btn-primar bg-bulea hover:bg-bluea hover:text-bulea">Découvrir nos évènnements</button>
+            <button className="btn btn-primar bg-bulea hover:bg-bluea hover:text-bulea"><NavLink to="/Events">Découvrir nos évènnements</NavLink></button>
           </div>
         </div>
       </div>
@@ -29,7 +30,7 @@ function Cardaccueil() {
           <h2 className="card-title">Des évènements et des conférences variriées</h2>
           <p>Click the button to listen on Spotiwhy app.</p>
           <div className="card-actions justify-end">
-          <button className="btn btn-primar bg-bulea hover:bg-bluea hover:text-bulea">Voir le Calendrier</button>
+          <button className="btn btn-primar bg-bulea hover:bg-bluea hover:text-bulea"><NavLink to="/Calendriern">Voir le Calendrier</NavLink></button>
           </div>
         </div>
       </div>
@@ -43,7 +44,7 @@ function Cardaccueil() {
             Click the button to listen on Spotiwhy app.<br/> app. Click the button to listen on <br/> Spotiwhy app. 
             Click the button to listen on Spotiwhy app.</p>
           <div className="card-actions justify-end">
-          <button className="btn btn-primar bg-bulea hover:bg-bluea hover:text-bulea">S'inscrire dans une formation</button>
+          <button className="btn btn-primar bg-bulea hover:bg-bluea hover:text-bulea"><NavLink to="/OffreFormations">S'inscrire dans une formation</NavLink></button>
           </div>
         </div>
       </div>

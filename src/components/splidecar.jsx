@@ -24,6 +24,12 @@ function Splidecar() {
         <SplideSlide>
           <img className= "rounded-3xl" src={Imo} alt="Image 2" />
         </SplideSlide>
+        <SplideSlide>
+          <img className= "rounded-3xl" src={Imo} alt="Image 2" />
+        </SplideSlide>
+        <SplideSlide>
+          <img className= "rounded-3xl" src={Imo} alt="Image 2" />
+        </SplideSlide>
       </Splide>
     </div>
   );

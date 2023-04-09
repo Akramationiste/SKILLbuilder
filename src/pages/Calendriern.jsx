@@ -1,7 +1,7 @@
 import { Calendar, momentLocalizer, Views } from "react-big-calendar";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import moment from "moment";
-import Navbar from "../components/navbar/Navbar";
+// import Navbar from "../components/navbar/Navbar";
 import Herocal from "../components/Herocal";
 import Footer from "../components/footer/Footer";
 
@@ -24,7 +24,7 @@ let myEventsList = [
 
 const Calendriern = (props) => (
   <div>
-    <Navbar/>
+    {/* <Navbar/> */}
     <Herocal/>
     <div
       className="myCustomHeight flex gap-8 flex-col p-24 "

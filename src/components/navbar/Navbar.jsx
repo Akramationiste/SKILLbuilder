@@ -1,21 +1,31 @@
-import { Link } from "react-router-dom";
-import OffreFormations from "../../pages/OffreFormations"
+import { NavLink, Outlet } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <>
-      <div className="navbar bg-bulea text-white">
-  <div className="flex-1">
-    <a className="btn btn-ghost normal-case text-xl">SkillsBuilders</a>
-  </div>
-  <div className="flex-none">
-  <ul className="menu menu-horizontal px-1">
-  <li><Link to={"./OffreFormations"}>Formations</Link></li>
-  <li><Link to="./Events">Evènements</Link></li>
-  <li><Link to="./Calendriern">Calendrier</Link></li>
-</ul>
-  </div>
-</div>
+      <div>
+        <div className="navbar bg-bulea text-white">
+          <div className="flex-1">
+          <NavLink to="/" className="btn btn-ghost normal-case text-xl">SkillBulider</NavLink>
+          </div>
+          <div className="flex-none">
+            <ul className="menu menu-horizontal px-1">
+              <li>
+                <NavLink to="/OffreFormations">Formations</NavLink>
+              </li>
+              <li>
+                <NavLink to="/Events">Evènements</NavLink>
+              </li>
+              <li>
+                <NavLink to="/Calendriern">Calendrier</NavLink>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <main className="">
+          <Outlet />
+        </main>
+      </div>
     </>
-  )
+  );
 }

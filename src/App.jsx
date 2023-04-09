@@ -1,4 +1,5 @@
 import "./App.css";
+import Navbar from "./components/navbar/Navbar";
 import Accueil from "./pages/Accueil";
 import Calendriern from "./pages/Calendriern";
 import OffreFormations from "./pages/OffreFormations";
@@ -13,10 +14,11 @@ import {
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Accueil />}>
-      <Route path="./OffreFormations" element={<OffreFormations />} />
-      <Route path="./Events" element={<Events />} />
-      <Route path="./Calendriern" element={<Calendriern />} />
+    <Route path="/" element={<Navbar/>}>
+        <Route index element={<Accueil/>}/>
+      <Route path="/OffreFormations" element={<OffreFormations />} />
+      <Route path="/Events" element={<Events />} />
+      <Route path="/Calendriern" element={<Calendriern />} />
     </Route>
   )
 );

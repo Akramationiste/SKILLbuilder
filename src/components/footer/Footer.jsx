@@ -4,7 +4,7 @@ import "./Footer.css"
 function Footer() {
   return (
     <div>
-        <footer className="footer p-10 bg-neutral text-neutral-content">
+        <footer className="footer p-10  text-neutral-content bg-bulea">
     <div>
       <span className="footer-title">Services</span> 
       <a className="link link-hover">Branding</a>

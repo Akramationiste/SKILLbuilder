@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from "../components/navbar/Navbar";
+// import Navbar from "../components/navbar/Navbar";
 import Carousel from "../components/carousel/Carousel"
 import Stat from "../components/Stat";
 import Cardaccueil from "../components/Cardaccueil";
@@ -12,7 +12,7 @@ import OurTeam from '../components/Team';
 function Accueil () {
   return (
     <div>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Carousel/>
         <Stat/>
         <Cardaccueil/>
